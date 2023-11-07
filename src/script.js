@@ -5,7 +5,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js' //m
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js' //load 3d model
 import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader.js' //compress 3d model
 import { CSS2DRenderer, CSS2DObject } from 'three/examples/jsm/renderers/CSS2DRenderer'; //disp html elem
-import { gsap } from "gsap"; //anim lib
+import { gsap } from "gsap"; //animation from gsap
 import 'boxicons'
 
 let sound = document.getElementById('audio');
