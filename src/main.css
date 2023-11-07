@@ -1,0 +1,62 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	overscroll-behavior: none;
+	overflow: hidden;
+}
+
+.tooltip {
+	background-color: #fff;
+	color: #0a0a0a;
+	padding: 10px;
+	position: relative;
+	transform: translateY(-10px);
+	opacity: 0;
+	transition-duration: .3s;
+	transition-property: opacity, transform;
+}
+/* triangle at tooltip bottom */
+.tooltip:after {
+	position: absolute;
+	content: '';
+	width: 20px;
+	height: 20px;
+	background-color: #fff;
+	top: 90%;
+	left: 50%;
+	transform: rotateZ(45deg) translateX(-50%);
+}
+
+.hide {
+	opacity: 0;
+	transform: translateY(-10px);
+}
+.show {
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+.back-btn {
+	position: absolute;
+	z-index: 999;
+	bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	display: none;
+	fill: #fff;
+	font-size: 25px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+}
+.back-btn:hover {
+	background-color: #fff;
+	fill: #000;
+}
+
+.info img {
+	width: 100%;
+}
+
+#audio {
+	display: none;
+}
