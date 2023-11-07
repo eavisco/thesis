@@ -1,11 +1,11 @@
-import './main.css'
-import * as THREE from 'three'
-import { TWEEN } from 'three/examples/jsm/libs/tween.module.min.js'
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
-import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader.js'
-import { CSS2DRenderer, CSS2DObject } from 'three/examples/jsm/renderers/CSS2DRenderer';
-import { gsap } from "gsap";
+import './main.css' //import css
+import * as THREE from 'three' //import threejs
+import { TWEEN } from 'three/examples/jsm/libs/tween.module.min.js' //TWEEN anim incl threejs
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js' //mouse controls
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js' //load 3d model
+import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader.js' //compress 3d model
+import { CSS2DRenderer, CSS2DObject } from 'three/examples/jsm/renderers/CSS2DRenderer'; //disp html elem
+import { gsap } from "gsap"; //anim lib
 import 'boxicons'
 
 let sound = document.getElementById('audio');
