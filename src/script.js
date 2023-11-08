@@ -265,7 +265,7 @@ function goBack() {
     introAnimation();
 }
 
-// Jasmin Model Methods
+// Jasmine Model Methods
 function show_jasmine_model() {
     current_3d_model = 'jasmine_default';
     jasmine_modal.toggle();
@@ -400,7 +400,7 @@ function renderButtons_jasmine() {
     })
 }
 
-// Jasmin Model Methods
+// Linnea Model Methods
 function show_linnea_model() {
     current_3d_model = 'linnea_default';
     linnea_modal.toggle();
