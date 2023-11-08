@@ -1,4 +1,4 @@
-import './main.css' //import css
+import './main.css' //integrate css
 import * as THREE from 'three' //import threejs
 import { TWEEN } from 'three/examples/jsm/libs/tween.module.min.js' //TWEEN anim incl threejs
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js' //mouse controls
@@ -22,13 +22,14 @@ lodingManager.onLoad = function() {
     preloadingPage.style.visibility = 'hidden';
 }
 
-// visit models methods
-const jasmine_btn = document.querySelector('#jasmine_btn');
-const linnea_btn = document.querySelector('#linnea_btn');
-jasmine_btn.onclick = function() { show_jasmine_model() };
-linnea_btn.onclick = function() { show_linnea_model() };
+ // visit models methods
+ const jasmine_btn = document.querySelector('#jasmine_btn');
+ const linnea_btn = document.querySelector('#linnea_btn');
+ jasmine_btn.onclick = function() { show_jasmine_model() };
+ linnea_btn.onclick = function() { show_linnea_model() };
 
 // modals instance
+//start 3d model visual
 var linnea_modal = new bootstrap.Modal(document.getElementById('linnea_modal'), {
     keyboard: false
 })
