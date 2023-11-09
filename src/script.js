@@ -29,6 +29,7 @@ lodingManager.onLoad = function() {
  linnea_btn.onclick = function() { show_linnea_model() };
 
 // modals instance
+//start 3d model visual
 var linnea_modal = new bootstrap.Modal(document.getElementById('linnea_modal'), {
     keyboard: false
 })
