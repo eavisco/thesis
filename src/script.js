@@ -1,4 +1,4 @@
-import './main.css' //integrate css
+import './main.css' //import css
 import * as THREE from 'three' //import threejs
 import { TWEEN } from 'three/examples/jsm/libs/tween.module.min.js' //TWEEN anim incl threejs
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js' //mouse controls
