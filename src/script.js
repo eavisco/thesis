@@ -107,6 +107,7 @@ function setup_lighting() {
     sunLight.position.set(-69,44,14)
     scene.add(sunLight)
 }
+// mouse functions
 function setOrbitControlsLimits(minD, maxD, isRotate, isZoom, minAz, maxAz) {
     controls.minDistance = minD
     controls.maxDistance = maxD
