@@ -22,11 +22,11 @@ lodingManager.onLoad = function() {
     preloadingPage.style.visibility = 'hidden';
 }
 
-// visit models methods
-const jasmine_btn = document.querySelector('#jasmine_btn');
-const linnea_btn = document.querySelector('#linnea_btn');
-jasmine_btn.onclick = function() { show_jasmine_model() };
-linnea_btn.onclick = function() { show_linnea_model() };
+ // visit models methods
+ const jasmine_btn = document.querySelector('#jasmine_btn');
+ const linnea_btn = document.querySelector('#linnea_btn');
+ jasmine_btn.onclick = function() { show_jasmine_model() };
+ linnea_btn.onclick = function() { show_linnea_model() };
 
 // modals instance
 var linnea_modal = new bootstrap.Modal(document.getElementById('linnea_modal'), {
