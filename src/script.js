@@ -449,8 +449,8 @@ function renderButtons_linnea() {
         gsap.to(camera.position,{x: 0, y: 7, z: -18, duration: 2, ease: 'power3.inOut'})
         gsap.to(controls.target,{
             x: 0,
-            y: 0,
-            z: 100,
+            y: 10,
+            z: 10,
             duration: 2,
             ease: 'power3.inOut',
             onComplete() {
