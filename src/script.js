@@ -450,7 +450,7 @@ function renderButtons_linnea() {
         gsap.to(controls.target,{
             x: 0,
             y: 10,
-            z: 100,
+            z: 10,
             duration: 2,
             ease: 'power3.inOut',
             onComplete() {
