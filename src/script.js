@@ -26,7 +26,7 @@ lodingManager.onLoad = function() {
  const jasmine_btn = document.querySelector('#jasmine_btn');
  const linnea_btn = document.querySelector('#linnea_btn');
  jasmine_btn.onclick = function() { show_jasmine_model() };
- linnea_btn.onclick = function() { show_linnea_model() };
+ linnea_btn.onclick = function() { show_linnea_model() };.
 
 // modals instance
 //start 3d model visual
@@ -193,8 +193,8 @@ function lookAtCurrent3dModel() {
 
 // Map Page Methods
 function gotoLinnea() {
-    gsap.to(controls.target,{x: -40, y: 2, z: -5, duration: 2, ease: 'power3.inOut'})
-    gsap.to(camera.position,{x: -48, y: 9, z: -21, duration: 2, ease: 'power3.inOut'})
+    //gsap.to(controls.target,{x: -40, y: 2, z: -5, duration: 2, ease: 'power3.inOut'})
+    //gsap.to(camera.position,{x: -48, y: 9, z: -21, duration: 2, ease: 'power3.inOut'})
 }
 function gotoJasmine() {
     gsap.to(controls.target,{x: -15, y: 9, z: -20, duration: 2, ease: 'power3.inOut'})
